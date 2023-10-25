@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="biography.html" target="_blank">Biography Page</a>
+          </li>
+          <li>
+            <a href="">Form Page</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Application Form</h2>
+      <p>Fill in your details</p>
+      <br />
+      <form>
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          required
+          maxlength="20"
+          placeholder="Enter first name"
+        />
+
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          required
+          maxlength="20"
+          placeholder="Enter last name"
+        />
+        <br />
+        <br />
+        <label for="gender">Gender</label>
+        <select name="gender" required>
+          <option value="">Select gender</option>
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+        </select>
+        <label for="dob">Date of birth</label>
+        <input type="date" /> <br />
+        <br />
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter email address" />
+
+        <label for="education">Education Level</label>
+        <select name="Education level" required>
+          <option value="">Select level of education</option>
+          <option value="Bsc">Bsc</option>
+          <option value="Msc">Msc</option>
+          <option value="Diploma">Diploma</option>
+          <option value="Doctorate">Doctorate(PhD)</option>
+          <option value="School">High School/Secondary School</option>
+          <option value="Undergrad">Undergraduate</option>
+          <option value="Junior school">Junior/Middle School</option>
+          <option value="Post grad">Post Graduate</option>
+        </select>
+        <br />
+        <br />
+        <label for="country">Country</label>
+        <select name="country" required>
+          <option value="">Select your country</option>
+          <option value="Nig">Nigeria</option>
+          <option value="Gh">Ghana</option>
+          <option value="K">Kenya</option>
+          <option value="Benin">Benin</option>
+        </select>
+        <label for="residence">State/City of Residence</label>
+        <input type="text" required maxlength="30" /> <br />
+        <br />
+
+        <label for="employment">Employment Status</label>
+        <select name="Emloyment" required>
+          <option value="">Select employment status</option>
+          <option value="self-employed">Self-employed</option>
+          <option value="unemployed">Unemployed</option>
+          <option value="employed">Employed</option>
+        </select>
+
+        <label for="phone">Phone Number</label>
+        <input type="number" required maxlength="12" /> <br />
+        <br />
+
+        <label for="school">Choose School</label>
+        <select name="school" required>
+          <option value="">Select school</option>
+          <option value="data">School of Data</option>
+          <option value="engineering">School of Engineering</option>
+          <option value="product">School of Product</option>
+        </select>
+
+        <label for="course">Course of Study</label>
+        <select name="course" required>
+          <option value="">Select course</option>
+        </select>
+        <br />
+        <br />
+
+        <label for="channel">How did you hear about us?</label>
+        <select name="channel" required>
+          <option value="">Select channel</option>
+          <option value="">Twitter</option>
+          <option value="">Facebook</option>
+          <option value="">LinkedIn</option>
+          <option value="">Friend</option>
+          <option value="">WhatsApp</option>
+          <option value="">Instagram</option>
+          <option value="">Billboard</option>
+          <option value="">Other</option>
+        </select>
+
+        <label for="scholarship">Scholarship/Discount code (optional)</label>
+        <input
+          type="text"
+          placeholder="scholarship or studend ID or discount code"
+        />
+        <br />
+        <br />
+
+        <p>
+          By clicking continue, I agree to Terms of Use and acknowledge that I
+          have read the Privacy Policy.
+        </p>
+        <br />
+        <br />
+
+        <input type="button" value="Proceed" />
+      </form>
+    </main>
+  </body>
+</html>
